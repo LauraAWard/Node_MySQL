@@ -27,11 +27,11 @@ The Bamazon Customer Application will allow a customer to view the current catal
 The Bamazon Manager Application will allow a manager at ACME Enterprises to view the current product inventory, check for low stock products, restock products and add new products to the inventory database.
 
 1. When the manager starts the application, there is a menu of options to choose from:
-	*View Products for Sale
-	*View Low Inventory
-	*Add to Inventory
-	*Add New Product
-	*Exit Inventory Management
+	| View Products for Sale
+	| View Low Inventory
+	| Add to Inventory
+	| Add New Product
+	| Exit Inventory Management
 
 2. If the manager selects View Products, the current catalog of available products will be retrieved from the products database and displayed, including all fields in the products table.  
 
