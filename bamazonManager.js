@@ -37,6 +37,7 @@ function displayInventory() {
     console.log("Unable to connect to Inventory Management System.\n".red);
   } 
     console.log("\nCurrent Inventory:\n".bold.cyan);
+    tto.reset();
     tto.pushrow(["item_id", "product_name", "department_name", "price", "stock_quantity"]).line();
     for(i = 0; i < res.length; i++) {
       tto.pushrow([res[i].item_id,res[i].product_name,res[i].department_name,res[i].price,res[i].stock_quantity]);
